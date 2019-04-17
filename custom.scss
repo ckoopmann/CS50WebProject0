@@ -1,0 +1,15 @@
+$background: #233a5e;
+$text: #dee2de;
+$fontsize: 30;
+
+.navbar-light {
+  background-color: $background;
+}
+
+ .navbar-nav, .navbar-brand{
+  color: $text;
+}
+
+.navbar-light .navbar-brand{
+ color: $text;
+}
