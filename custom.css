@@ -1,0 +1,83 @@
+#active-nav {
+  text-decoration: underline;
+}
+
+.carousel {
+  height: 600px;
+}
+
+.navbar-light {
+  background-color: #233a5e;
+}
+
+.navbar-nav, .navbar-brand {
+  color: #dee2de;
+}
+
+.navbar-light .navbar-brand {
+  color: #dee2de;
+}
+
+work {
+  float: left;
+  width: 100%;
+  padding: 0 1%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* cv */
+.cv [class*=row] {
+  border-bottom: dotted 1px #ccc;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.cv h4, .cv h6 {
+  margin-bottom: 0;
+}
+
+.cv h4, .cv h6, .cv p {
+  text-align: center;
+}
+
+.cv [class*=row]:last-of-type {
+  border: none;
+}
+
+@media screen and (min-width: 40em) {
+  .cv h4, .cv h6, .cv p {
+    text-align: left;
+  }
+
+  .work-header {
+    width: 33.3333333%;
+  }
+
+  .work-details {
+    width: 66.6666666%;
+  }
+}
+.page-footer {
+  position: relative;
+  margin-top: -150px;
+  height: 150px;
+  clear: both;
+  padding-top: 20px;
+}
+
+html, body {
+  height: 100%;
+}
+
+#wrap {
+  min-height: 100%;
+}
+
+#main {
+  overflow: auto;
+  padding-bottom: 150px;
+  /* this needs to be bigger than footer height*/
+}
+
+/*# sourceMappingURL=custom.css.map */
