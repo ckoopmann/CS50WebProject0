@@ -2,6 +2,10 @@
   text-decoration: underline;
 }
 
+.cv h4, .cv h6, .cv p {
+  text-align: center;
+}
+
 .carousel {
   height: 600px;
 }
@@ -9,12 +13,7 @@
 .navbar-light {
   background-color: #233a5e;
 }
-
-.navbar-nav, .navbar-brand {
-  color: #dee2de;
-}
-
-.navbar-light .navbar-brand {
+.navbar-light .navbar-nav, .navbar-light .navbar-brand {
   color: #dee2de;
 }
 
@@ -37,47 +36,14 @@ work {
   margin-bottom: 0;
 }
 
-.cv h4, .cv h6, .cv p {
-  text-align: center;
-}
-
 .cv [class*=row]:last-of-type {
   border: none;
 }
 
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 768px) {
   .cv h4, .cv h6, .cv p {
     text-align: left;
   }
-
-  .work-header {
-    width: 33.3333333%;
-  }
-
-  .work-details {
-    width: 66.6666666%;
-  }
-}
-.page-footer {
-  position: relative;
-  margin-top: -150px;
-  height: 150px;
-  clear: both;
-  padding-top: 20px;
-}
-
-html, body {
-  height: 100%;
-}
-
-#wrap {
-  min-height: 100%;
-}
-
-#main {
-  overflow: auto;
-  padding-bottom: 150px;
-  /* this needs to be bigger than footer height*/
 }
 
 /*# sourceMappingURL=custom.css.map */
